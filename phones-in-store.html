@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refurbished Handsets | Tara GB Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Refurbished Handsets | Tara GB Ltd">
+    <meta property="og:description" content="Fast, premium screen repairs, battery replacements, water damage recovery, vapes, pouches, and refurbished phones in Peckham Rye, London.">
+    <meta property="og:image" content="https://mowleed2000.github.io/tara-gb-ltd/storefront.webp">
+    <meta property="og:url" content="https://mowleed2000.github.io/tara-gb-ltd/phones-in-store.html">
+    <meta property="og:type" content="website">
+
+    <!-- Microsoft Clarity Tracking Code -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "x1smlah9oa");
+    </script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><i class="fa-solid fa-screwdriver-wrench"></i> Tara GB Ltd</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-trigger">Repairs <i class="fa-solid fa-chevron-down" style="font-size:0.75rem; margin-left:3px;"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="screen-repair.html">Screen Repair</a></li>
+                        <li><a href="battery-replacement.html">Battery Replacement</a></li>
+                        <li><a href="water-damage.html">Water Damage</a></li>
+                        <li><a href="charging-port.html">Charging Port Repair</a></li>
+                        <li><a href="phone-unlocking.html">Phone Unlocking</a></li>
+                        <li><a href="laptop-tablet.html">Laptop &amp; Tablet Repair</a></li>
+                    </ul>
+                </li>
+                <li><a href="vapes-pouches.html">Vapes &amp; Pouches</a></li>
+                <li><a href="phones-in-store.html">Phones</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="tel:07771111108" class="btn-nav-cta"><i class="fa-solid fa-phone"></i> Call Now</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero text-center reveal" style="background-image: linear-gradient(rgba(17, 17, 17, 0.75), rgba(17, 17, 17, 0.95)), url('technician.jpg'); background-size: cover; color: #ffffff;">
+        <div class="container">
+            <h1 style="color: #ffffff;">Phones In Store</h1>
+            <p style="color: rgba(255,255,255,0.85);">Quality second-hand handsets — tested, cleaned and ready to use. No contracts. No commitment. Just a great phone at a fair price.</p>
+        </div>
+    </section>
+
+    <!-- Phones Grid Section -->
+    <section class="phones-section">
+        <div class="container">
+            <p class="intro-paragraph text-center reveal">We carry a rotating selection of second-hand smartphones from the world's top brands. Every handset is tested before it goes on display. Stock changes regularly — call ahead or come in to see what we have available today.</p>
+            
+            <div class="phones-grid reveal">
+                <!-- Phone 1 -->
+                <div class="phone-product-card">
+                    <img src="Iphone 17.webp" alt="iPhone 17">
+                    <h3>iPhone 17</h3>
+                    <span class="avail-badge">Available In Store</span>
+                </div>
+                <!-- Phone 2 -->
+                <div class="phone-product-card">
+                    <img src="Iphone 17 pro max.webp" alt="iPhone 17 Pro Max">
+                    <h3>iPhone 17 Pro Max</h3>
+                    <span class="avail-badge">Available In Store</span>
+                </div>
+                <!-- Phone 3 -->
+                <div class="phone-product-card">
+                    <img src="Samsung s26 ultra.webp" alt="Samsung S26 Ultra">
+                    <h3>Samsung S26 Ultra</h3>
+                    <span class="avail-badge">Available In Store</span>
+                </div>
+                <!-- Phone 4 -->
+                <div class="phone-product-card">
+                    <img src="Samsung Flip 6.webp" alt="Samsung Galaxy Z Flip 6">
+                    <h3>Samsung Galaxy Z Flip 6</h3>
+                    <span class="avail-badge">Available In Store</span>
+                </div>
+                <!-- Phone 5 -->
+                <div class="phone-product-card">
+                    <img src="Google Pixel 10a.webp" alt="Google Pixel 10a">
+                    <h3>Google Pixel 10a</h3>
+                    <span class="avail-badge">Available In Store</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="phones-cta text-center reveal">
+        <div class="container">
+            <h2>See Something You Like?</h2>
+            <p>Call us to check availability or come in and speak to the team.</p>
+            <a href="tel:07771111108" class="btn btn-primary">Call 07771 111108</a>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightboxModal" class="lightbox">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightboxImg">
+        <div id="lightboxCaption" class="lightbox-caption"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="footer-logo"><i class="fa-solid fa-screwdriver-wrench"></i> Tara GB Ltd</a>
+                <p style="margin-top: 15px; font-size: 0.85rem; line-height: 1.6; color: rgba(255, 255, 255, 0.6);">Your local repair experts — fast turnaround screen replacements, battery diagnostics, and water damage recovery.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Our Services</h4>
+                <p><a href="screen-repair.html">Screen Repair</a></p>
+                <p><a href="battery-replacement.html">Battery Replacement</a></p>
+                <p><a href="water-damage.html">Water Damage</a></p>
+                <p><a href="charging-port.html">Charging Port Repair</a></p>
+                <p><a href="phone-unlocking.html">Phone Unlocking</a></p>
+                <p><a href="laptop-tablet.html">Laptop &amp; Tablet Repair</a></p>
+            </div>
+            <div class="footer-hours">
+                <h4>Opening Hours</h4>
+                <ul>
+                    <li>Monday: 9:15 AM - 9:00 PM</li><li>Tuesday: 9:15 AM - 9:00 PM</li><li>Wednesday: 9:15 AM - 9:00 PM</li><li>Thursday: 9:15 AM - 9:00 PM</li><li>Friday: 9:15 AM - 9:00 PM</li><li>Saturday: 9:15 AM - 9:00 PM</li><li>Sunday: 10:15 AM - 6:00 PM</li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p class="phone-num"><a href="tel:07771111108">07771 111108</a></p>
+                <p style="margin-top: 10px; font-size: 0.85rem; color: rgba(255, 255, 255, 0.6);">Rye Ln, London SE15 5EX</p>
+                <p style="margin-top: 15px; font-size: 0.75rem; color: rgba(255, 255, 255, 0.4); line-height: 1.4;">
+                    Nicotine products are sold to adults aged 18 and over only. Strict Challenge 25 policy in operation.
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container" style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; width: 100%;">
+                <p>&copy; Tara GB Ltd 2026. All rights reserved.</p>
+                <p class="agency-credit">Website by <a href="https://collabcreate.co.uk" target="_blank">CollabCreate Marketing</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
