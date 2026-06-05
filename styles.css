@@ -657,6 +657,13 @@ h1, h2, h3, h4 {
     color: #ffffff;
 }
 
+.phone-unlock-hero {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: right 10% center !important;
+    background-color: #0a0a0a !important;
+}
+
 .service-hero h1 {
     font-size: 3.5rem;
     color: #ffffff;
@@ -1274,7 +1281,8 @@ h1, h2, h3, h4 {
     
     /* Phone Unlocking Hero Position Adjust (Checklist Issue 4) */
     .phone-unlock-hero {
-        background-position: center 20% !important;
+        background-size: cover !important;
+        background-position: center 25% !important;
     }
     
     /* Expand buttons on mobile */
